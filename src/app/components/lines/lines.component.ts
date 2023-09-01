@@ -125,7 +125,7 @@ export class LinesComponent implements OnInit{
     this.value=this.searchValue.nativeElement.value
   }
   searchResult(x:string,y:string){
-    return String(x).includes(String(y))
+    return String(x).toLowerCase().includes(String(y).toLowerCase())
   }
   clear(){
     this.searchValue.nativeElement.value=""

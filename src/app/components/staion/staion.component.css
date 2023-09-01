@@ -31,7 +31,7 @@ nz-badge{
 }
 .station-rate{
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   margin: 32px 0;
 }
