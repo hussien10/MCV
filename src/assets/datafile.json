@@ -1,0 +1,172 @@
+[
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 1",
+    "StationID": "1",
+    "BusID": "",
+    "BusModel": "",
+    "Rate":  "1",
+    "BusImage":""
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 2",
+    "StationID": "2",
+    "BusID": "2",
+    "BusModel": "MCV230",
+    "Rate": "3",
+    "BusImage": "MCV230.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 3",
+    "StationID": "3",
+    "BusID": "3",
+    "BusModel": "MCV600",
+    "Rate": "2",
+    "BusImage": "MCV600NF3X.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 3",
+    "StationID": "3",
+    "BusID": "13",
+    "BusModel": "MCV500",
+    "Rate": "5",
+    "BusImage":"MCV500.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 4",
+    "StationID": "4",
+    "BusID": "4",
+    "BusModel": "MCV500",
+    "Rate": "5",
+    "BusImage":"MCV500.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 5",
+    "StationID": "5",
+    "BusID": "5",
+    "BusModel": "MCV800",
+    "Rate": "4",
+    "BusImage":"MCV800.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 7",
+    "StationID": "7",
+    "BusID": "7",
+    "BusModel": "MCV800DD",
+    "Rate": "3",
+    "BusImage":"MCVC800DD.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 6",
+    "StationID": "6",
+    "BusID": "6",
+    "BusModel": "MCV240",
+    "Rate": "5",
+    "BusImage":"MCV240.png"
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 8",
+    "StationID": "8",
+    "BusID": "",
+    "BusModel": "",
+    "Rate": "5",
+    "BusImage":""
+  },
+  {
+    "LineName": "Line 1",
+    "LineID": "1",
+    "StationName": "Station 6",
+    "StationID": "6",
+    "BusID": "14",
+    "BusModel": "MCV230",
+    "Rate": "2",
+    "BusImage": "MCV230.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 1",
+    "StationID": "1",
+    "BusID": "8",
+    "BusModel": "MCV223",
+    "Rate": "4",
+    "BusImage":"MCV223.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 2",
+    "StationID": "2",
+    "BusID": "9",
+    "BusModel": "MCV400",
+    "Rate": "1",
+    "BusImage":"MCV400F.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 3",
+    "StationID": "3",
+    "BusID": "10",
+    "BusModel": "MCV223",
+    "Rate": "5",
+    "BusImage":"MCV223.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 3",
+    "StationID": "3",
+    "BusID": "11",
+    "BusModel": "MCV800",
+    "Rate": "3",
+    "BusImage":"MCV800.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 3",
+    "StationID": "3",
+    "BusID": "12",
+    "BusModel": "MCV600",
+    "Rate": "0",
+    "BusImage":"MCV600NF3X.png"
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 4",
+    "StationID": "4",
+    "BusID": "",
+    "BusModel": "",
+    "Rate": "4",
+    "BusImage":""
+  },
+  {
+    "LineName": "Line 2",
+    "LineID": "2",
+    "StationName": "Station 5",
+    "StationID": "5",
+    "BusID": "",
+    "BusModel": "",
+    "Rate": "2",
+    "BusImage":""
+  }
+]

@@ -1,0 +1,52 @@
+img,
+.ant-empty-image svg {
+  height: 61px !important;
+}
+
+.station-statistics div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+nz-badge {
+  margin-right: 20px;
+}
+nz-badge .head-example{
+  background-color: transparent;
+
+}
+.head-example {
+  width: 42px;
+  height: 42px;
+  border-radius: 4px;
+  background: #eee;
+  display: inline-block;
+  vertical-align: middle;
+}
+nz-badge{
+  vertical-align: middle;
+  margin: 0;
+}
+.station-rate{
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 32px 0;
+}
+.station-rate p{
+  margin-left: 16px;
+}
+.bus-model>p{
+  margin: 32px ;
+  text-align: center;
+}
+.station-image,.station-statistics{
+  padding: 0 32px;
+}
+.station-statistics{
+  border-top: 1px solid #aaa;
+  padding: 16px 32px;
+  background-color: #eee;
+}

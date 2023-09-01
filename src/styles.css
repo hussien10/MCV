@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+.ant-empty-image{height: 61px;}
+
+p{
+  margin: 0;
+}
+.ant-card{
+  height: 344px;
+}
+.ant-card-head{
+  text-align: center;
+}
+.ant-card-body{
+  padding: 0;
+}
+app-staion>div{
+  background-color: transparent!important;
+  padding: 8px!important;
+}
+.ant-empty{
+  margin: 64px 8px;
+}
+.owl-carousel .owl-item .ant-empty-image img{
+  width: auto;
+  display: inline;
+}
+.owl-theme .owl-nav{
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}

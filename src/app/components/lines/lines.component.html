@@ -1,0 +1,30 @@
+<div class="filter">
+  <div class="select-filter">
+    <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select a Filter" #cretriaSelect>
+      <nz-option  *ngFor="let filter of searchFilters " nzLabel="{{filter}}" nzValue="{{filter}}"></nz-option>
+    </nz-select>
+  </div>
+  <div class="search-val">
+    <input nz-input placeholder="Basic usage" #searchValue/>
+    <button nz-button nzType="primary" (click)="search()">
+      <span nz-icon nzType="search" ></span>
+      Search
+    </button>
+    <button nz-button nzType="primary" nzDanger *ngIf="value!=''" (click)="clear()">
+      <span nz-icon nzType="search" ></span>
+      Clear
+    </button>
+  </div>
+</div>
+<div class="line-container" *ngFor="let line of lines | keyvalue">
+  <h1 class="line-title">{{line.key}}</h1>
+  <owl-carousel-o [options]="customOptions" >
+    <ng-template carouselSlide *ngFor="let station of line.value">
+      <div class="slide" *ngIf="value=='' || cretria=='' || searchResult(station[cretria] , value)">
+        <app-staion [station]="station"></app-staion>
+      </div>
+    </ng-template>
+
+  </owl-carousel-o>
+</div>
+

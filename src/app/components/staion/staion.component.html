@@ -1,0 +1,44 @@
+<div style="background: #ECECEC;padding:30px;">
+  <nz-card  [nzBordered]="true" nzTitle={{station.StationName}} >
+    <div *ngIf="station.BusModel!==''">
+      <div class="station-image">
+        <img alt="example" src={{imageBaseURL+station.BusImage}} />
+      </div>
+      <div class="bus-model">
+        <p>{{station.BusModel}}</p>
+        <div class="station-rate">
+          <nz-rate [ngModel]="station.Rate/station.busCount" nzAllowHalf nzDisabled></nz-rate>
+          <p>{{(station.Rate/station.busCount)/5 *100 | number: '1.0-1'}} %</p>
+        </div>
+      </div>
+      <div class="station-statistics">
+        <div>
+          <nz-badge [nzCount]="0" [nzOverflowCount]="99" class="text-center">
+            <a class="head-example"><span nz-icon nzType="user" nzTheme="outline" style="font-size: 30px;"></span></a>
+          </nz-badge>
+          <nz-badge [nzCount]="0" [nzOverflowCount]="99" class="text-center">
+            <a class="head-example">
+              <span nz-icon nzType="warning" nzTheme="outline" style="font-size: 30px;"></span>
+            </a>
+          </nz-badge>
+          <nz-badge [nzCount]="0" [nzOverflowCount]="99" class="text-center">
+            <a class="head-example"><span nz-icon nzType="build" nzTheme="outline" style="font-size: 30px;"></span></a>
+          </nz-badge>
+          <nz-badge [nzCount]="station.busCount" [nzOverflowCount]="99" class="text-center">
+            <a class="head-example"><span nz-icon nzType="car" nzTheme="outline" style="font-size: 30px;"></span></a>
+          </nz-badge>
+        </div>
+
+      </div>
+    </div>
+    <div class="empty-station" *ngIf="station.BusModel==''">
+      <nz-empty  [nzNotFoundContent]="contentTpl"nzNotFoundImage="/assets/images/bus.png"></nz-empty>
+    </div>
+
+  </nz-card>
+</div>
+<ng-template #contentTpl>
+  <span>
+    No Buses
+  </span>
+</ng-template>

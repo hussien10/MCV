@@ -1,0 +1,48 @@
+.slide{
+  padding: 0 16px;
+}
+.line-container{
+  position: relative;
+  margin-bottom: 32px;
+}
+.line-title{
+  position: absolute;
+  background-color: #555;
+  color: #fff;
+  font-size: 18px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  top: 0px;
+  left: 16px;
+  z-index: 10;
+  padding: 4px 32px;
+}
+.owl-theme .owl-nav{
+  position: absolute;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+
+}
+nz-select {
+  width: 200px;
+}
+.filter{
+  padding: 16px 0;
+}
+.filter,.search-val{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.search-val input{
+  display: inline;
+  width: 300px;
+  margin: 0 16px;
+}
